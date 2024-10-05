@@ -65,9 +65,8 @@ a {
     z-index: 1;
 }
 
-
-
 .hero-wrap {
+    justify-content: center;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -116,15 +115,12 @@ a {
 }
 
 /* ===============================Hero===================*/
-.hero {
-    margin-top: 130px;
-}
 
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-weight: 500;
     font-size: 1.8rem;
@@ -132,7 +128,7 @@ a {
     letter-spacing: 0.01em;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -140,7 +136,7 @@ a {
     line-height: 1.19;
 }
 
-.hero .decs {
+.hero-wrap .decs {
     margin-top: 30px;
     color: #5A6473;
     font-size: 1.8rem;
